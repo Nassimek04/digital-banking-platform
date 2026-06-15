@@ -1,50 +1,74 @@
-# \# Digital Banking — AI-Powered Bank Account Management
+# 🏦 Digital Banking Platform
 
-# 
+Full-stack digital banking application built with **Spring Boot 3** and **Angular 17**.
 
-# Full-stack banking management platform built with Spring Boot 3 and Angular 17.
+## Features
 
-# 
+* JWT Authentication & Authorization
+* Customer Management
+* Current & Saving Accounts
+* Credit, Debit & Transfer Operations
+* Dashboard & Analytics
+* AI Assistant (Spring AI RAG)
+* Telegram Bot Integration
+* Swagger/OpenAPI Documentation
 
-# \### Features
+## Tech Stack
 
-# \- JWT Authentication \& Authorization
+### Backend
 
-# \- Customer \& Bank Account Management
+* Java 17
+* Spring Boot 3
+* Spring Security
+* Spring Data JPA
+* JWT
+* Spring AI
 
-# \- Credit, Debit \& Transfer Operations
+### Frontend
 
-# \- Interactive Dashboard \& Analytics
+* Angular 17
+* TypeScript
+* Chart.js
 
-# \- AI Assistant powered by Spring AI (RAG)
+### Database
 
-# \- Telegram Bot Integration
+* H2 (Development)
+* MySQL (Production)
 
-# \- Swagger/OpenAPI Documentation
+## Architecture
 
-# 
+```text
+Angular 17
+    │
+    ▼
+Spring Boot REST API
+    │
+    ├── JWT Security
+    ├── Spring AI (RAG)
+    └── JPA/Hibernate
+    │
+    ▼
+H2 / MySQL
+```
 
-# \### Tech Stack
+## Run
 
-# \*\*Backend:\*\* Spring Boot 3, Spring Security, JWT, JPA, Spring AI, Telegram Bot
+### Backend
 
-# 
+```bash
+cd backend
+mvn spring-boot:run
+```
 
-# \*\*Frontend:\*\* Angular 17, Standalone Components, ng2-charts
+### Frontend
 
-# 
+```bash
+cd frontend
+npm install
+npm start
+```
 
-# \*\*Database:\*\* MySQL / PostgreSQL
+## Author
 
-# 
-
-# \### Architecture
-
-# Angular 17 → Spring Boot REST API → Database
-
-# 
-
-# \### Project Goal
-
-# Develop a secure and intelligent digital banking platform combining modern web technologies, AI-powered assistance, and conversational banking services.
-
+**Nassim KHATIB**
+EMSI Casablanca – 2025/2026
