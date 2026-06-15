@@ -70,5 +70,5 @@ npm start
 
 ## Author
 
-**Nassim KHATIB**
+**Nassime KHATIB**
 EMSI Casablanca – 2025/2026
